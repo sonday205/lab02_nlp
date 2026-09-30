@@ -29,9 +29,6 @@ Chạy các cell từ trên xuống. Cell cuối sẽ ghi đè `results.csv` b�
 AI hỗ trợ tạo phần code và khung thí nghiệm theo phạm vi cho phép trong PDF. Phần tính toán được lưu thành bản scan; prediction và reflection vẫn cần hoàn thiện. Error analysis hiện có trong `error_analysis.md`.
 
 ## AI assistance statement
-
-- Tool: ChatGPT/Codex.
 - Purpose: hỗ trợ tạo implementation Python và khung notebook cho các phần AI được phép theo PDF.
 - What was generated: `ngram_lm.py` và code thí nghiệm trong `experiments.ipynb`.
-- What was modified: code được điều chỉnh để dùng bộ đếm chung khi đánh giá MLE/Laplace và chia train/validation/test theo tài liệu.
 - How the result was verified: notebook chạy hết trên shard dữ liệu hiện có; `results.csv` được tạo bởi cell cuối. Phần prediction và reflection do sinh viên tự hoàn thiện trước khi nộp.

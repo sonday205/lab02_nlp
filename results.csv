@@ -1,0 +1,25 @@
+section,model,smoothing,train_ppl,valid_ppl,test_ppl,metric,value,context,top_prediction,top_probability,actual_next,candidate,log_probability,mean_log_probability,continuation_length
+mle_vs_laplace,1-gram,laplace,1957.579168064192,2157.9929926840896,1990.6636759298729,,,,,,,,,,
+mle_vs_laplace,1-gram,mle,1947.7315404577446,inf,inf,,,,,,,,,,
+mle_vs_laplace,2-gram,laplace,5480.999647474636,7860.842965629018,7395.221889890508,,,,,,,,,,
+mle_vs_laplace,2-gram,mle,145.52410035737034,inf,inf,,,,,,,,,,
+mle_vs_laplace,3-gram,laplace,19387.038574629943,33879.30322727991,33432.137289995575,,,,,,,,,,
+mle_vs_laplace,3-gram,mle,13.086697715101991,inf,inf,,,,,,,,,,
+corpus_stats,,,,,,documents,10000.0,,,,,,,,
+corpus_stats,,,,,,sentences,199262.0,,,,,,,,
+corpus_stats,,,,,,tokens_total,3661323.0,,,,,,,,
+corpus_stats,,,,,,vocabulary_train,84197.0,,,,,,,,
+corpus_stats,,,,,,unique_1gram,84197.0,,,,,,,,
+corpus_stats,,,,,,unique_2gram,980780.0,,,,,,,,
+corpus_stats,,,,,,unique_3gram,1945612.0,,,,,,,,
+corpus_stats,,,,,,one_count_1gram,37397.0,,,,,,,,
+corpus_stats,,,,,,one_count_2gram,721163.0,,,,,,,,
+corpus_stats,,,,,,one_count_3gram,1723177.0,,,,,,,,
+next_word,,,,,,,,machine learning,and,0.0005540035597675542,and,,,,
+next_word,,,,,,,,in the,most,0.006706421225477487,server,,,,
+next_word,,,,,,,,one of,the,0.10305955023646367,the,,,,
+next_word,,,,,,,,of the,most,0.006706421225477487,most,,,,
+next_word,,,,,,,,to the,most,0.006706421225477487,next,,,,
+sentence_ranking,,,,,,,,machine learning,,,,is useful for NLP,-36.920338324241065,-9.230084581060266,4.0
+sentence_ranking,,,,,,,,machine learning,,,,banana computer quickly,-34.037030429838744,-11.345676809946248,3.0
+sentence_ranking,,,,,,,,machine learning,,,,studies language models,-34.03906174018113,-11.346353913393711,3.0
